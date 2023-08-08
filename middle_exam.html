@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>高考加油 ～ 高考閉站保護</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <style>
+        body {
+            text-align: center; 
+            background-color: #E6E6E6;
+            color: #1A1A1A;
+            font-size: 3rem; 
+            }
+        img {
+            max-width: 88%;
+        }
+    </style>
+</head>
+<body>
+    
+ <div style="display:flex; flex-direction:row;">
+  <div style="flex:1; display:flex; flex-direction:column; justify-content:center;">
+          <div id="Good_Sentence">沈穩應考, 高考必勝! 霍戈拉布祝你高考成功! </div>
+    <div id="LET">OD's Lucky Exam Time!</div>
+    <!--<a href="https://ordylan.com/HSP/tempwish.php">[去許願]</a>-->
+    <a href="https://ordylan.com/HSP/says.php?mod=1" target="_blank">[必勝言論]</a>
+    <a href="https://on.ordylan.com/updates/" target="_blank">[關註站長狀態]</a><br>
+      </div>
+  <div style="flex:1;">
+    <img src="https://onimagecloud.ordylan.com/GKTimeImg.png?fromCloseGK.html" alt="GKimg" style="height:100vh">
+  </div>
+ </div>
+    <img src="https://ordylan.com/logos/hogolabu.svg" alt="Hogolabu Logo">
+    <!--old buluess-->
+    <img src="https://onimagecloud.ordylan.com/NoteImg/replenish_1684927475822_1_953085.jpeg?nowatermark=true32ececa2baa1cb858d5d3c8d9db5057d" alt="Bululess Lucky Tree">
+    <img src="https://onimagecloud.ordylan.com/NoteImg/replenish_1686455020526_1_391870.jpeg?nowatermark=true668335c721c0cfc28858a41f83d9151f" alt="Bululess Palace Party">
+    <p id="Connect">閉站期間訪問_聯系: od@ordylan.com</p>
+    <script>
+        const LET_TIME = 1780794000000;
+        const LET_BOX = document.getElementById("LET");
+        setInterval(LuckyExamTime, 1000);
+        function LuckyExamTime() {
+            const now = new Date();
+            const diff = Math.floor((LET_TIME - now) / 1000); 
+            const days = Math.floor(diff / 86400);
+            const hours = Math.floor((diff % 86400) / 3600); 
+            const minutes = Math.floor((diff % 3600) / 60); 
+            const seconds = diff % 60;
+            if (diff < 0) {
+                LET_BOX.innerHTML = "你沒時間了, 在考場做出最後的努力吧! ";
+            } else {
+                LET_BOX.innerHTML = `你還有最後的${days}天${hours}時${minutes}分${seconds}秒, 加油! `;
+            }
+        }
+    </script>
+</body>
+</html>
