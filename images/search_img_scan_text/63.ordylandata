@@ -1,0 +1,421 @@
+[问题引入]
+臧小胖在学完锐角三角比后,觉得意犹未尽,又在课余时间对直角三角形中的边及
+其对角的正弦值之间的关系进行了研究:
+如图，在Rt△ABC中，有“=sinA，0=sinB，I
+A
+acC
+mA
+6 =c.5inB
+因此-“=_b
+=c=又因为sin C=I,
+二
+C
+6
+sinA sinB 8 SC
+GinA
+sin B
+所以-“_=_b_=_C
+6
+sinA sinB sin C
+c-
+臧小胖兴奋地把这个结论告诉了刘老师,刘老师神秘一笑,给臧小胖提出了另外个问题:
+这个关系
+在任意三角形中
+是否成立呢?
+[问题探究]
+臧小胖觉得这个问题很有意思,然而百思不得其解,于是找到邹小哲-起研究讨论.
+邹小哲提出:或许可以把任意三角形转化为直角三角形去解决.
+如图，在锐角三角形ABC中，作AD⊥
+A
+BC于点D,则有AD=bsinC=csinB
+b
+C
+因此
+sinB sinC ”
+C
+同理可证
+sinA
+sin C
+b
+C
+A
+所以
+sinA sinB sin C
+B
+D
+a
+sinL=
+AD
+b
+AD- bsinL
+而对于钝角三角形,两人查阅了资料后发现也同样适用.
+而对于钝角三角形，两人查阅了资料后发现也同样适用.
+G: b:c : sin3o : 5m60 :sin 90
+真相大白
+小3
+斜
+对
+二
+之:
+2
+|、J3:2
+印
+。
+[正弦定理]
+sind-科
+在三角形中，各边的长和它所对的角的正弦的比相等，即
+b
+C
+sinAsinB
+sin C
+[应用]刘老师表扬了臧小胖的探索精神，并且让臧小胖在全班同学面前展示了他的研究过程.课
+后，她给同学们布置了这样的一道题目: 
+△ABC中，∠A:∠B:∠C=1:2:3,则a:b:c等于( C )
+30
+60
+中
+A.1+2:3
+B.3:2+1
+C. 1:√3:2
+D. 2:√3: 1
+A
+sin A: sinD
+2R
+(A
+D
+a
+2R
+S imA
+b
+C
+二
+2R
+月理
+Sin B
+sm C
+C
+二
+2R
+Y
+C
+A
+B
+sinA 
+s仆B
+sinc
++
+R
+b
+5mA+ SmB
+2R
+2R
+a+b
+C
+0
+ShA
+CinB 
+Sm C
+2R
+b
+ab
+sjnA
+sinA . snB
+2及
+2R
+。
+sin弓
+同理，
+b:c 2 sinA : simB:5ihC
+5inC
+2R
+a~46 
+sin'A +5A
+B
+C
+sinC
+2
+a
+C
+在△ABC中，sin A=一，BC= 6, AB= 4.5,那么∠C=_ 
+30
+。
+3
+a
+C
+snA
+smC
+2 C:3D°戌150
+▲
+6二
+4.5
+|
+S inC
+3
+6 smL=了
+元
+2
+-1
+s}nC= :
+2
+宁<3
+2
+sin( < SinA
+2C< LA
+冗=| 80
+Ll =3D
+= 90
+36*二2元
+如图，为测量山高l,选择A和另一座山的山顶C为测量观测点.从A点测得M点的仰角60°，C
+点的仰角45°以及∠MAC = 75°;从C点测得∠MCA = 60°已知山高BC = 100m,则山
+高MN =_
+I 50
+m.
+M
+A从一 A(高级解法
+初中解法
+sinbi
+5in45
+52
+C
+_AM /00,2
+s 150
+OB
+30G
+2
+2
+N
+503
+A
+B
+52 A从二50J
+A从= 1003
+[问题引入]
+臧小胖探究完正弦定理后，对锐角三角比产生了浓厚的兴趣，刘老师不禁有
+了爱才之心， 于是又给臧小胖布置了一道探究题:
+如图，在Rt△ABC中，根据勾股定理
+A
+有: a'+b'=c.
+这描述的是直角三角形的三边关系.
+那么在任意三角形中，三边又具有怎
+b
+C
+样的关系呢?
+a
+B
+[问题探究]
+CoS90”=0
+所谓吃一堑长一智，有了.上次的经验，臧小胖很快就想到这次或许也可以借助直
+AD
+角三角形来解决:
+SinC:
+CoSC=
+如图，在锐角三角形ABC中，AD=bsin C, V
+A
+CD=bcos C,则BD=a- -bcos C. s
+在Rt△ADB中，
+由勾股定理可得AB'=AD'+BD'，
+c/
+1 bs'nC
+即c2=b'sin2 C+(a- -bcos C)=a^+b3- -2ab cos C.
+同理可得a'=b*+c'- -2bc cos A,
+b2= c2+a'- -2ca cos B.
+B-
+Los
+D
+ab CoSC
+C
+2
+c2=b2sin^C+ a3.
+-2abcosC +63
+CoS
+'C
+CoSC =
+a2+b*-C2
+2
+:b2(sn"c+ cos*c) + a2 -2ab COS C
+2风b
+ch=a3 +b2 - 20bCosC
+CoS A=
+6 2+(一a
+2上C
+CosB 3
+a2+L*-62
+20 L
+通过查阅资料，臧小胖发现这其实就是余弦定理,并且对于钝角三角形也同样适用
+真相大白S
+[余弦定理]
+三角形任何-边的平方等于其它两边的平方和减去这两边与它们夹
+a'=b*+c-2bccos A
+角的余弦的积的两倍，即<
+b'=c'+a- -2cacos B
+c'=a'+b- -2abcos C
+个
+与
+2元
+-I
+O+C-a-
+2
+6+4-5
+CoSA =
+2b
+[应用]臧小胖兴致勃勃地去了刘老师办公室，准备汇报研究成果，只看见刘老师的书桌上留了一
+张字条，上面有一道题目和一句话:
+3b
+12
+-33 86
+36
+-86-3 二0
+b,:31
+只有解决这道爆难的互动题，才算真正掌握余弦定理!
+b=-学(年
+2
+△ABC的内角A、B、C的对边分别为a、b、 C. 已知a=√5, c=2, cosA==,则b=
+3'
+( D)
+A.√2
+B.√3
+C.2
+D.3
+在△ABC中，a、b、c分别是∠A、∠B、∠C的对边，且b2 +c2- a2=bc,则∠A =
+o
+62+C2-a
+2
+CosA三
+2 bc
+26 C
+2
+工
+2
+b7
+45
+30
+COs
+30
+她
+60
+在△ABC中，已知sinC= 
+sin A+ sin B
+SD试判断三角形的形状.
+CosA十cosB
+sinAtsinB
+a+6
+二
+解:
+CoSA+coS B二
+sinC
+C
+(a-b)(a2+b2 -c2)=0
+C( COSA+LosB) = a+b
+成
+62+("-G'
+a2+C2 -62
+C(
+2 b(
+2 aC
+6)=a+b
+等腰成直角
+b"+C2-A'
+2 +C2-b'
+= a+b
+2b
+十
+2a
+ab2+ac2-a3 +a'b+bc2-b3 = 2a'6+206
+a3 +b3 +al^ +a'b-. ac2-bC'=0
+latb )La"-ab+}2) tab (atb)-C'Catb)= 0
+(atb)(q'+b2-c2)=0
+牛0
+at+h2-C= U
+2 +b2 =c2
+Rt O
+3
+三
+
+在△ABC中，已知(a +b+c)(a +b-c)= 3ab, sin AsinB= 2,判断此三角形的形
+在abc中，已知(a+b+c)(a+b-c)=3AB，sin AsinB=2，判断此三角形的形
+
+4
+四
+
+状.
+状.
+
+sinA .SinB
+新浪新浪网
+
+解:
+解：
+
+(q+b)°-C2二3a6
+(q+b)°-C2二3A6
+
+sinC
+辛科
+
+a2 +2ab+b2-c3 =3a 6
+A2+2AB+b2-c3=3a 6
+
+二|
+二\x{e76f}
+
+=ab
+=ab
+
+C
+C型
+
+a2十6
+A2十6
+
+ab
+AB型
+
+a'+h-ab
+A‘+h-ab
+
+a^+b”-C2
+A^+b“-C2
+
+ab
+AB型
+
+CoSC5一
+CoSC 5一
+
+20 b
+20 b
+
+2ab
+2AB
+
+F2
+F2
+
+?+67 -2a6= 0
+？+67-2A6=0
+
+LC=60
+LC=60
+
+8
+八
+
+(a-b]2= D
+(a-b)2=D
+
+sinC二
+Sinc二
+
+2
+第二次
+
+a=b
+A=b
+
+sinc = cinA-sinB
+Sinc=Cina-SinB
+
+等边
+等边
+
+

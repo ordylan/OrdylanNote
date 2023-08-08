@@ -1,0 +1,33 @@
+<div id="app"></div> 
+<script src="https://ordylan.com/js/newan/pixi.min.js"></script>
+<script src="https://ordylan.com/js/newan/pixi-spine.js"></script>
+<script>const app = new PIXI.Application({
+    backgroundColor:0xFFFFFF,
+    antialias:true,
+    width:document.documentElement.clientWidth,
+    height:document.documentElement.clientHeight
+});
+document.getElementById('app').appendChild(app.view);//div
+let loader = PIXI.loader.add('ordylan','OD.json');//OD.json你的json
+       var skinwidth = 1072.93;//这里写一个自适应,要换成皮肤长宽
+       var skinheight = 783.57;//原理很简单,一点小学数学知识+平面直角坐标系知识即可
+var beishu1 = document.documentElement.clientWidth/skinwidth;//2个缩放比例
+var beishu2 = document.documentElement.clientHeight/skinheight;//理解成相似图形即可
+if(beishu1 > beishu2){//比较选小的,防止出屏幕
+    var beishu = beishu2;
+}
+else if(beishu1 == beishu2){
+    var beishu = beishu1;
+}
+else if (beishu1 < beishu2){
+    var beishu = beishu1;
+}
+loader.load((loader,res)=>{
+    let ordylan = new PIXI.spine.Spine(res.ordylan.spineData),
+        options = [''];
+    ordylan.scale.set(beishu);//放大倍数
+    ordylan.state.setAnimation(0,'loading',true);//loop你的动画名字 true 为循环播放
+    ordylan.x = ((skinwidth-258)*beishu)/2;//O点在中间,所以xy 坐标 长宽除以二(导出记得把动画放在中央)
+    ordylan.y = ((skinheight+53)*beishu)/2;
+app.stage.addChild(ordylan);
+});</script>

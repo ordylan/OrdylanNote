@@ -1,0 +1,48 @@
+
+OD.png
+size: 1371,1371
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+123123
+  rotate: true
+  xy: 748, 639
+  size: 730, 617
+  orig: 730, 617
+  offset: 0, 0
+  index: -1
+222
+  rotate: false
+  xy: 748, 255
+  size: 557, 382
+  orig: 557, 382
+  offset: 0, 0
+  index: -1
+bg
+  rotate: false
+  xy: 1367, 1367
+  size: 2, 2
+  orig: 2, 2
+  offset: 0, 0
+  index: -1
+story_illust
+  rotate: false
+  xy: 2, 502
+  size: 744, 867
+  orig: 744, 867
+  offset: 0, 0
+  index: -1
+texxxxxt
+  rotate: false
+  xy: 2, 140
+  size: 1008, 113
+  orig: 1008, 113
+  offset: 0, 0
+  index: -1
+无标题
+  rotate: false
+  xy: 2, 333
+  size: 489, 167
+  orig: 489, 167
+  offset: 0, 0
+  index: -1

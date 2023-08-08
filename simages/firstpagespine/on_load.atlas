@@ -1,0 +1,66 @@
+
+on_load.png
+size: 1421,1894
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+未标题-1
+  rotate: false
+  xy: 2, 2
+  size: 1417, 1890
+  orig: 1417, 1890
+  offset: 0, 0
+  index: -1
+
+on_load2.png
+size: 1904,1488
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+无标题
+  rotate: true
+  xy: 2, 745
+  size: 741, 1157
+  orig: 741, 1157
+  offset: 0, 0
+  index: -1
+无标题 - 副本
+  rotate: false
+  xy: 1161, 329
+  size: 741, 1157
+  orig: 741, 1157
+  offset: 0, 0
+  index: -1
+无标题 - 副本 (2)
+  rotate: true
+  xy: 2, 2
+  size: 741, 1157
+  orig: 741, 1157
+  offset: 0, 0
+  index: -1
+
+on_load3.png
+size: 1924,1083
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+无标题00
+  rotate: false
+  xy: 2, 2
+  size: 1920, 1079
+  orig: 1920, 1079
+  offset: 0, 0
+  index: -1
+
+on_load4.png
+size: 1396,1396
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+无得到标题
+  rotate: false
+  xy: 2, 2
+  size: 1392, 1392
+  orig: 1392, 1392
+  offset: 0, 0
+  index: -1

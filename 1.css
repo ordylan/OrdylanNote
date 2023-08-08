@@ -1,0 +1,252 @@
+@font-face {
+  font-family: "aa";
+  src: url("https://onimagecloud.ordylan.com/Temp_1.ttf") format('truetype');
+}
+body {
+background-color: #E6E6E6;
+text-align:center;
+color: #1A1A1A;
+/*font-family: "aa";*/
+}
+
+p {
+font-size:5vh;
+}
+
+h2#titlee {
+font-size:5vh;
+}
+
+h3#timee {
+font-size:2.5vh;
+}
+h3#aboutt {
+font-size:3vh;
+}
+a {
+font-size:5vh;
+transform: scale(1);
+transition: 0.2s ease-in-out;
+}
+
+a:hover {
+    font-size:6vh;
+  transform: scale(1.2);
+  text-shadow: 0 0 5px white,0 0 10px #00FF00,0 0 15px #00FF00,0 0 20px white;color:green;
+  /*transform-origin: center;*/
+}
+
+   a:active {  
+    font-size:6vh;
+  transform: scale(1.2);
+text-shadow: 0 0 5px white,0 0 10px #ff0000,0 0 15px #ff0000,0 0 20px white;color:red; /*font-weight:bold;*/
+   }  
+
+header {
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+height: 10%;
+  background-color: #EEEEEE;
+  z-index: 18;
+}
+img#b{
+position: absolute;
+left: 0;
+top: 0;
+height: 100%;
+}
+
+div#bbb{
+position: absolute;
+right: 0;
+top: 0;
+height: 9%;
+background-color: grey;
+}
+
+h1#oes{
+text-align:center;
+font-size: 5vh;
+}
+
+div#main,div#smallyw,div#smallsx,div#smallyy,div#smallwl,div#smallhx,div#smallqt,div#smallqb {
+position: absolute;
+top: 10%;
+width: 100%;
+height: 90%;
+  background-color: #E6E6E6;
+
+}
+
+img#imagee{
+
+width: 90%;
+
+}
+
+div#textmode ,p#textmode{
+word-wrap:break-word;
+}
+
+div#jiexi{
+font-size: 2.8vh;
+}
+
+
+.allranks{
+    height: 90%;
+    width: 98%;
+    font-size: 2.5vh;overflow:scroll;
+}
+.rankuser{
+    height: 10%;
+    width: 98%;position:relative;
+}
+.rankuserimg{position: absolute;
+    height: 100%;
+    left: 10%;
+    /*display: none;*/
+}
+.rankuserlevel{
+    position: absolute;
+    right: 5%;top: 0;
+}
+.rankuserlevel2{
+   position: absolute;
+    right: 5%;
+    bottom: 0;
+}
+.rankusername{
+     position: absolute;
+     left: 40%;
+}
+.rankuseraaaaaa{
+     position: absolute;
+     left: 8%;
+}
+
+.tanchulaidekuang{
+    position: absolute;
+    top: 15%;
+    left: 20%;
+    width:60%;
+    height: 70%;
+    background: #E6E6E6;
+    border:3px solid #000;
+}
+.tinytag{
+    height: 56px;
+     border-radius: 10px;
+}
+
+/*new动画*/
+.odin{
+-webkit-animation:odin 0.6s .0s ease both;
+-moz-animation:odin 0.6s .0s ease both;'
+}
+.odback{
+-webkit-animation:odback 0.5s .0s ease both;
+-moz-animation:odback 0.5s .0s ease both;'
+}
+.odfinish {
+  transform: translateX(0);
+}
+@-webkit-keyframes odback{
+0%{opacity:1;-webkit-transform:translateX(0);}
+100%{opacity:0;-webkit-transform:translateX(90%);}
+}
+@-moz-keyframes odback{
+0%{opacity:1;-moz-transform:translateX(0);}
+100%{opacity:0;-moz-transform:translateX(90%);}
+}
+@-webkit-keyframes odin{
+0%{opacity:1;-webkit-transform:translateX(0);}
+100%{opacity:0;-webkit-transform:translateX(-90%);}
+}
+@-moz-keyframes odin{
+0%{opacity:1;-moz-transform:translateX(0);}
+100%{opacity:0;-moz-transform:translateX(-90%);}
+}
+
+/*
+.progress {
+  z-index: 30;
+  top:8%;
+  position: absolute;
+  height: 20px;
+  width: 100%;
+  margin-top: 10px;
+  background-color: #f5f5f5;
+  border-radius: 5px;
+}
+
+.progress-bar {
+  height: 100%;
+  background-color: #4CAF50;
+  border-radius: 5px;
+  transition: width 0.5s ease-in-out;
+}
+
+.progress-bar-text {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  text-align: center;
+  line-height: 10px;
+  color: #fff;
+  font-size: 12px;
+} 
+*/
+#progressBar {
+    z-index: 30;
+	position:fixed;
+	top:0;
+	inset-inline-start:0;
+	width:0;
+	padding:0;
+	margin:0;
+	transition: width 0.2s ease;
+	animation:progressAnimation 4s ease infinite;
+}
+#progressBackground {
+	height:66px;
+	margin-top:-26px;
+	background-image:linear-gradient(var(--progressbar-shadow-start),var(--in-content-page-background) 100%),var(--progressbar-gradient);
+	background-position:inherit;
+	filter:blur(5px);
+	border-end-end-radius:33px;
+}
+#progressSolid {
+	position:absolute;
+	top:0;
+	width:100%;
+	height:66%;
+	background-image:var(--progressbar-gradient);
+	background-position:inherit;
+}
+#progressBackground,#progressSolid {
+	background-size:200% 100%;
+}
+:root {
+	--progressbar-shadow-start:rgba(255,255,255,0.7);
+	--progressbar-gradient:linear-gradient(90deg,#ffc519 0%,#FC00FF 50%,#FFD700 100%);
+	--in-content-page-background:#fff;
+}
+@keyframes progressAnimation {
+	0% {
+	background-position:200%;
+}
+50% {
+	background-position:100%;
+}
+100% {
+	background-position:0%;
+}
+}
+
+/* tubiao */
+@font-face{font-family:'onicon';src:url('simages/icons/onicon.eot');src:url('simages/icons/onicon.eot#iefix') format('embedded-opentype'),url('simages/icons/onicon.ttf') format('truetype'),url('simages/icons/onicon.woff') format('woff'),url('simages/icons/onicon.svg#onicon') format('svg');font-weight:normal;font-style:normal;font-display:block;}[class^="onicon_"],[class*=" onicon_"]{font-family:'onicon' !important;speak:never;font-style:normal;font-weight:normal;font-variant:normal;text-transform:none;line-height:1;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;}.onicon_oshualar:before{content:"\abc11";}.onicon_image:before{content:"\abc12";}.onicon_book:before{content:"\abc13";}.onicon_paper:before{content:"\abc14";}.onicon_upload:before{content:"\abc15";}.onicon_share:before{content:"\abc16";}.onicon_box:before{content:"\abc17";}.onicon_install:before{content:"\abc18";}.onicon_save:before{content:"\abc19";}.onicon_database:before{content:"\abc20";}.onicon_search:before{content:"\abc21";}.onicon_key:before{content:"\abc22";}.onicon_edit:before{content:"\abc23";}.onicon_setting:before{content:"\abc24";}.onicon_paihang:before{content:"\abc25";}.onicon_cup:before{content:"\abc26";}.onicon_openbox:before{content:"\abc27";}.onicon_share2:before{content:"\abc28";}.onicon_code:before{content:"\abc29";}.onicon_close:before{content:"\abc30";}

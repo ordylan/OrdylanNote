@@ -1,0 +1,48 @@
+一、“旋转型”相似三角形图形识别
+如图，<BAC=<DAE,<B=<D，则ΔABADE
+E
+C
+B
+二、“旋转型”相似三角形的特征
+!  =1．由一点发出四条线段对应成比例：
+2．两对相似三角形：ΔABC~ΔADE
+3.BB=40=A4
+AB=46
+又＂LBAD＝LGAE
+ABD VΔACE
+C
+B
+D有时题目中的图形没有直接给出“旋转型”相似三角形，需要添加辅助线进行构造.
+两个共顶点的相似的三角形绕着这个顶点进行旋转，必然会产生一对新的相似三角形.
+共顶点“一次旋转两对相似”
+原相似：ΔADE～ΔABC
+一旋转：将ΔADE旋转一定角度至ΔAD＇E＇
+两相似：ΔAD＇E＇～ΔABC，ΔAD＇B～ΔAE＇C
+E
+E
+B
+C
+如图，在任意ΔABC的外部作ΔBPCBPC、ΔCQA和ΔAREB，使/PBC=<CAQ=45°BCP=<QCA=30°,<ABR=<BAR=15°
+P
+E
+证：过B作BEICP交CP延长线于点É，过A作ADLCQ交Q延光线于点D.
+D
+取BC.AC.AB中点N，S，M连接 EN，NM，EM，DS，SM.DM，MR
+B
+R
+ΔENM는ΔMSD (SAS)
+EM=MD
+（1）求证：
+RP=RQ.
+QAD=LRAM=15°,<DAM=2QAR
+:<PRQ=90°
+ΔADQ
+21+22=<3+24=180°-(25+26)-2
+180-(25+<7)-2
+An=A2→AADMNAAQR
+=:昨非
+=180-(180-60-2) -2
+=180-15.0+60+2-2
+同理
+=60<PRQ=90
+QR=PR

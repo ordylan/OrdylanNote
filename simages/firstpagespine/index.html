@@ -1,0 +1,21 @@
+ <div id="app"></div>   <script src="/js/newan/pixi.min.js"></script>
+    <script src="/js/newan/pixi-spine.js"></script><script>const app = new PIXI.Application({
+    backgroundColor:0xFFFFFF,
+    antialias:true,
+    width:document.documentElement.clientWidth,
+    height:document.documentElement.clientHeight
+});
+document.getElementById('app').appendChild(app.view);
+let loader = PIXI.loader.add('odbg','on_load.json');
+        skinwidth = 1501.74;
+        skinheight = 1169.41;
+        var beishu = document.documentElement.clientWidth/skinwidth;
+loader.load((loader,res)=>{
+    let odbg = new PIXI.spine.Spine(res.odbg.spineData),
+        options = [''];
+    odbg.scale.set(beishu);
+    odbg.state.setAnimation(0,'pen2',true);
+    odbg.x = skinwidth*beishu/2;
+    odbg.y = skinheight*beishu/2;
+app.stage.addChild(odbg);
+});</script>
