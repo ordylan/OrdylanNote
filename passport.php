@@ -121,7 +121,7 @@ require_once 'dolog.php';
 $logF = new LOG_FUNCTION();
 
 $ga = new PHPGangsta_GoogleAuthenticator();
-$Code = $ga->getCode("ORDYLANNOTE");
+$Code = $ga->getCode("ORDYLAN_NOTE");
 if($_POST["passnumber"] && $_POST["passcode"]){
 if($ga->verifyCode("ORDYLAN_NOTE",$_POST["passnumber"]) && $_POST["passcode"] == "odpass"){
     require_once 'doAUTH.php';
