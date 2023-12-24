@@ -20,10 +20,12 @@ $notenum = $notenum[0];
     $sj = "".date("Y-m-d H:i:s",intval($notteee[1]/1000))."";
     $zy = $notteee[2];
     $tp = $notteee[3];
+    $tp = str_replace("https://on.ordylan.com/images/", "https://onimagecloud.ordylan.com/NoteImg/", $tp);
+    $tp = str_replace("https://ordylan.com/HSP/ON/v2/images/", "https://onimagecloud.ordylan.com/NoteImg/", $tp);
     $tp = explode('|', $tp);
     for ($j = 0; $j < count($tp)-1; $j++) {
         if(strstr($_SERVER['HTTP_USER_AGENT'],"Kindle")){$tpi = $tpi.'<img src="'.$tp[$j].'" id="imagee" alt="note_image_'.($j+1).'_scantext_'.$tpi2.'">';}else{
-         $tpi = $tpi.'<img data-src="'.$tp[$j].'" id="imagee" alt="note_image_'.($j+1).'_scantext_[隐藏]'.'" class="lazyload" src="https://s3.bmp.ovh/imgs/2022/08/02/a8d168a207bd70fe.gif">';}
+         $tpi = $tpi.'<img data-src="'.$tp[$j].'" id="imagee" alt="note_image_'.($j+1).'_scantext_[隐藏]'.'" class="lazyload" src="/simages/loading.gif">';}
     }
     if($tp[0] == "HTML_MODE"){
         $tpi = "";
