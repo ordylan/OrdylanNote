@@ -1,6 +1,7 @@
 # 橙鸭笔记系统-开源版
 里面几乎所有代码都是我写的, 开发上千小时哦。  
 部署教程视频: https://youtu.be/zzhBjYDMvxo   
+2024-08-04补提交: 移除了几乎所有非我制作的资源哦! 运行起来会缺少部分文件(非主要功能)! 
 
 # 开源版备注
 ## 域名
@@ -13,17 +14,18 @@
 见``!imagecloud.tar``, 其中需要将``../HSP_ON/``替换为你的笔记系统所在的目录哦~
 图云用伪静态: ``rewrite /NoteImg/(.+) /NoteImg.php?imgid=$1;``
 ## 其他
-为了增强可读性, 此代码包含笔记, 试卷. 不需要的话可以自己删除(懂一点点代码就可以).其中几个笔记有错误, 因为版本混淆修改未提交.   
+为了增强可读性, 此代码包含笔记, 试卷(现已移除,请不要查看旧版本仓库). 不需要的话可以自己删除(懂一点点代码就可以).其中几个笔记有错误, 因为版本混淆修改未提交.   
 如果笔记试卷等资源侵了你的权, 请联系我删除(由于我住校,不能及时回复).(真可惜里面大部分东西都没被我用, 可我上传笔记试卷却特别积极)  
 
 下附非我制作的资源表,请不要未经原作者同意使用!  
-1.代码里面的开箱动画``simage/open_box_file/*``, 只是示例.   
-2.代码里面的符卡图片``simages/cards/exam/*``, 只是示例.   
-3.代码``PAGEDO.php``里面换页进度条, 只是示例.   
-4.代码``sendpaper.php``里面phpmailer, 只是示例.  
-5.代码``note_cut.html``里面笔记裁剪, 只是示例.  
-6.代码``StudyPlace.php``里面草稿与讲义框的拖动功能, 只是示例.   
-7. [以外的部分非我制作的资源......]
+1.代码里面的开箱动画``simage/open_box_file/*``, 只是示例.(现已移除)   
+2.代码里面的符卡图片``simages/cards/exam/*``, 只是示例.(现已移除)   
+3.代码``PAGEDO.php``里面换页进度条, 只是示例.(现已移除)   
+4.代码``sendpaper.php``里面phpmailer, 只是示例.(现已移除)  
+5.代码``note_cut.html``里面笔记裁剪, 只是示例.(现已移除)  
+6.代码``StudyPlace.php``里面草稿与讲义框的拖动功能, 只是示例.(现已移除)   
+7.Logo里面的星星来源于 Surface自带的"Paint 3D"软件, 我们不知道其版权!   
+8. [以外的部分非我制作的资源......]
 
 我制作的资源你们可以用, 但不要商用哦.   
 加密算法请自己更换.   
@@ -65,7 +67,6 @@ Create at 10/16/2022 13:20.
 │  back.png >> 返回图片  
 │  boxopen.php >> 开宝箱页  
 │  cardroom.php >> 卡牌馆  
-│  drawinggame.php >> 网格游戏(半成品)  
 │  doAUTH.php >> 新签名算法  
 │  dolog.php >> 日志模块  
 │  favicon.ico >> 标志  
@@ -79,7 +80,6 @@ Create at 10/16/2022 13:20.
 │  manifest.json >> 断网访问用  
 │  middle_exam.html >> 中考倒计时  
 │  nonetwork.html >> 断网提示  
-│  note_cut.html >> 裁切笔记(非自创,改自开源代码)  
 │  openbox.php >> 开箱动画(已停用)  
 │  PAGEDO.php >> 页面头尾  
 │  papers.php >> 试卷合集  
@@ -88,7 +88,7 @@ Create at 10/16/2022 13:20.
 │  README.md  >> 项目总览介绍  
 │  robots.txt  >> 防部分蜘蛛  
 │  search.php >> 笔记搜索  
-│  sendpaper.php >> 发邮件(非自原,改自开源代码PHPMailer)  
+│  sendpaper.php >> 发邮件   
 │  submitpaperanswer.php >> 提交试卷答案  
 │  sw.php >> 断网访问  
 │  TempLis.php >> 临时表  
