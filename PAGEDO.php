@@ -24,7 +24,6 @@ print<<<HEAD
 {$addtext1}
 </head>
 <body>
-<!--版权声明|(自用,勿商用),逢考必胜主UI及句子来自猿辅导逢考必过符;开箱spine动画来自网易明日之后抽车动画-->
 <div id="mmm">
 <header><div id="backurll"><a {$pagebackurl}><img src="/back.png" id="b" alt="back"></a></div><h1 id="oes">{$pagetitle}</h1></header>
 <!--新js[临时换位置, 原来在<head>里面{\$addtext1}上面的位置]-->
@@ -74,10 +73,6 @@ if (localStorage.getItem('ON_Temp_Font_set') == 'true') {
 <!--Test-->
 
 </div>
-
-<!--<div class="progress" style="display: none;" id="mainload"><div class="progress-bar" id="progressBar"></div><div class="progress-bar-text">Loading...</div></div>-->
-<div id="progressBar" style="width: 0%;"><div id="progressBackground"></div><div id="progressSolid"></div></div>
-<script>document.getElementById("progressBar").style.display="none";setInterval(function () {if (parseInt(document.getElementById('progressBar').style.width) < 80) {document.getElementById('progressBar').style.width=(parseInt(document.getElementById('progressBar').style.width)+6)+"%"}},200);</script>
 
 </div></body></html>
 FOOT;
