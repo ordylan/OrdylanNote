@@ -1,6 +1,7 @@
 # 橙鸭笔记系统-开源版
 里面几乎所有代码都是我写的, 开发上千小时哦。  
-部署教程视频: https://youtu.be/zzhBjYDMvxo   
+部署教程视频: (on youtube) https://youtu.be/zzhBjYDMvxo   
+             (on biliblil) https://www.bilibili.com/video/BV1XuxYeKEQG/    
 2024-08-04补提交: 移除了几乎所有非我制作的资源哦! 运行起来会缺少部分文件(非主要功能)! 
 
 # 开源版备注
