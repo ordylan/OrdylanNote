@@ -200,52 +200,21 @@ font-size: 2.8vh;
   color: #fff;
   font-size: 12px;
 } 
-*/
-#progressBar {
-    z-index: 30;
-	position:fixed;
-	top:0;
-	inset-inline-start:0;
-	width:0;
-	padding:0;
-	margin:0;
-	transition: width 0.2s ease;
-	animation:progressAnimation 4s ease infinite;
+*/#progressBar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 6px;
+  z-index: 1000;
+  background: linear-gradient(90deg, #ffc519 0%, #FC00FF 50%, #ffc519 100%);
+  background-size: 200% 100%;
+  animation: pgb 3.456s linear infinite;
+  will-change: background-position;
+  transition: width 0.2s ease;
 }
-#progressBackground {
-	height:66px;
-	margin-top:-26px;
-	background-image:linear-gradient(var(--progressbar-shadow-start),var(--in-content-page-background) 100%),var(--progressbar-gradient);
-	background-position:inherit;
-	filter:blur(5px);
-	border-end-end-radius:33px;
-}
-#progressSolid {
-	position:absolute;
-	top:0;
-	width:100%;
-	height:66%;
-	background-image:var(--progressbar-gradient);
-	background-position:inherit;
-}
-#progressBackground,#progressSolid {
-	background-size:200% 100%;
-}
-:root {
-	--progressbar-shadow-start:rgba(255,255,255,0.7);
-	--progressbar-gradient:linear-gradient(90deg,#ffc519 0%,#FC00FF 50%,#FFD700 100%);
-	--in-content-page-background:#fff;
-}
-@keyframes progressAnimation {
-	0% {
-	background-position:200%;
-}
-50% {
-	background-position:100%;
-}
-100% {
-	background-position:0%;
-}
+@keyframes pgb {
+  0%   { background-position: 200%; }
+  100% { background-position: 0%; }
 }
 
 /* tubiao */
